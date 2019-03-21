@@ -7,4 +7,5 @@ for i in range(1,5):
                 num = 100*i+10*j+k
                 numbers.append(num)
 
-print(len(numbers),numbers)
+print('共能组成：'+str(len(numbers))+'个三位数，他们是：')
+print(numbers)
